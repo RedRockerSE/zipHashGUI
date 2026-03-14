@@ -1,41 +1,47 @@
-# Prerequisites
-*.d
 
-# Compiled Object files
-*.slo
-*.lo
+# Visual Studio
+.vs/
+*.slnx
+*.suo
+*.user
+*.userosscache
+*.VC.db
+*.VC.opendb
+*.sln.docstates
+
+# Build Folders
+[Bb]in/
+[Oo]bj/
+x64/Debug/
+x64/Release/
+Debug/
+Release/
+
+# Visual Studio Code
+.vscode/
+
+# Generated files
+*.exe
+*.dll
+*.pdb
+*.idb
+*.ipch
+*.class
 *.o
 *.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Linker files
+*.lib
 *.ilk
 
-# Debugger Files
-*.pdb
+# NuGet
+*.nupkg
+packages/
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
+# Logs
+*.log
 
-# Fortran module files
-*.mod
-*.smod
+# Other
+Thumbs.db
+*.DS_Store
 
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
-
-# debug information files
-*.dwo
+# Signed keys
+*.pfx
